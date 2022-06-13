@@ -9,10 +9,14 @@ I'm playing with [PyTorch](http://pytorch.org/) on the CIFAR10 dataset.
 ## Training
 ```
 # Start training with: 
-python main.py
+python train.py
 
 # You can manually resume the training with: 
-python main.py --resume --lr=0.01
+python train.py –resume
+
+# Using Model Inference: 
+python inference.py
+
 ```
 
 ## Accuracy
