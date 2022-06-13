@@ -1,20 +1,7 @@
 # Course: Pattern Recognition
-## Instructor: [Prof. Yen-Yu Lin](https://www.cs.nctu.edu.tw/members/detail/lin)
 ## Introduction
 An introduction to pattern recognition
-## Office Hours
-Wednesday 2:00 pm ~ 3:00 pm at EC218
 
-Please contact us by the following information:
-- Instructor Yen-Yu Lin at lin@cs.nctu.edu.tw
-- TA Jimmy Yang at d08922002@ntu.edu.tw
-- TA Chen-Hsuan Tai at derekt.cs06@nctu.edu.tw
-- TA Cheng-Ju Ho at ace52751208@gmail.com
-
-## Grading Policy
-- 4 homework assignments: 60%, see [HW READEME](https://github.com/NCTU-VRDL/CS_DCP3121/blob/master/HW_README.MD)
-- Final exam: 40%
- 
 ## Syllabus
 | Week |  Date   | Topic                                                                | Remarks                                                    |
 | ---- | ------- | ---------------------------------------------------------------------| -----------------------------------------------------------|    
