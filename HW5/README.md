@@ -1,16 +1,35 @@
-## HW5: Deep neural network, due date: June 12, 23:59
+# Train CIFAR10 with PyTorch
 
-### Goals
+I'm playing with [PyTorch](http://pytorch.org/) on the CIFAR10 dataset.
 
-In this coding assignment,  you need to implement the deep neural network by any deep learning framework, e.g. Pytorch, TensorFlow, or Keras, then train the DNN model by the Cifar-10 dataset. 
+## Prerequisites
+- Python 3.6+
+- PyTorch 1.0+
 
-### Dataset
-Download dataset [HERE](https://drive.google.com/drive/folders/1vI8Bkk5DojitLNkpz-UT30jOEay0XXon?usp=sharing). Please note that you should only train and evaluate your model on the provided dataset. **DO NOT** download the data from other resources.
+## Training
+```
+# Start training with: 
+python main.py
 
-Find the questions at [this document](https://docs.google.com/document/d/1vy1Qn894VTzBlKIbetn3GRNMrLP_V0HgaXZv1LFHtcA/edit?usp=sharing)
+# You can manually resume the training with: 
+python main.py --resume --lr=0.01
+```
 
-### Submission
-- You should submit a compressed file (e.g. .rar, .zip) on E3-system with the filename below.
-<STUDENT-ID>_HW<NUMBER>, e.g.0856165_HW1
+## Accuracy
+| Model             | Acc.        |
+| ----------------- | ----------- |
+| [VGG16](https://arxiv.org/abs/1409.1556)              | 92.64%      |
+| [ResNet18](https://arxiv.org/abs/1512.03385)          | 93.02%      |
+| [ResNet50](https://arxiv.org/abs/1512.03385)          | 93.62%      |
+| [ResNet101](https://arxiv.org/abs/1512.03385)         | 93.75%      |
+| [RegNetX_200MF](https://arxiv.org/abs/2003.13678)     | 94.24%      |
+| [RegNetY_400MF](https://arxiv.org/abs/2003.13678)     | 94.29%      |
+| [MobileNetV2](https://arxiv.org/abs/1801.04381)       | 94.43%      |
+| [ResNeXt29(32x4d)](https://arxiv.org/abs/1611.05431)  | 94.73%      |
+| [ResNeXt29(2x64d)](https://arxiv.org/abs/1611.05431)  | 94.82%      |
+| [SimpleDLA](https://arxiv.org/abs/1707.064)           | 94.89%      |
+| [DenseNet121](https://arxiv.org/abs/1608.06993)       | 95.04%      |
+| [PreActResNet18](https://arxiv.org/abs/1603.05027)    | 95.11%      |
+| [DPN92](https://arxiv.org/abs/1707.01629)             | 95.16%      |
+| [DLA](https://arxiv.org/pdf/1707.06484.pdf)           | 95.47%      |
 
-- The compressed file should have **two files**, including your **1) code (e.g. .py or .ipynb)** and **2) report(.pdf)** with your answer. Both files should be named as above. Please refer to the attached file for details
